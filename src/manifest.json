@@ -1,5 +1,4 @@
 {
-  "manifest_version": 3,
   "name": "JIRA Active Sprint Improver",
   "version": "1.0",
   "description": "Enlarges swimlane expander button on JIRA Active Sprint Board.",
@@ -16,5 +15,12 @@
   ],
   "icons": {
     "48": "icon.png"
-  }
+  },
+  "manifest_version": 3,
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{98ddc95e-3d27-48b4-86b0-18dca3f38d08}",
+			"strict_min_version": "109.0"
+		}
+	}
 }
