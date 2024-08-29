@@ -1,6 +1,6 @@
 {
   "name": "JIRA Active Sprint Improver",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Enlarges swimlane expander button on JIRA Active Sprint Board.",
   "permissions": [
     "activeTab",
