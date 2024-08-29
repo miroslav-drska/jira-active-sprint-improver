@@ -4,7 +4,7 @@ console.log('JIRA Active Sprint Improver is active.');
 if (window.location.href.includes('jira')) {
   const style = document.createElement('style');
   style.innerHTML = `
-    .ghx-swimlane .ghx-heading-expander {
+    .ghx-swimlane .ghx-heading-expander, .ghx-backlog .ghx-heading-expander {
       padding-top: 16px;
       padding-bottom: 16px;
       padding-left: 24px;
@@ -13,10 +13,13 @@ if (window.location.href.includes('jira')) {
       margin-bottom: -10px;
       margin-right: 16px;
     }
-    .ghx-swimlane .ghx-heading-expander svg {
+    .ghx-swimlane .ghx-heading-expander svg, .ghx-backlog .ghx-heading-expander svg {
       position: absolute;
       top: 10px;
       left: 16px;
+    }
+    .ghx-backlog .ghx-heading-expander {
+      margin-bottom: 5px;
     }
   `;
   document.head.appendChild(style);
